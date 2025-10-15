@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <title>Centro de datos hidroelectrico</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7f6; 
+            color: #333;
+            line-height: 1.6;
+            display: flex;
+            justify-content: center; 
+            padding: 20px;
+        }
+        .contenedor-principal {
+            max-width: 900px;
+            width: 100%;
+            background-color: #ffffff; 
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); 
+            text-align: center;
+        }
+        h1 {
+            color: #007bff; 
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        h2 {
+            color: #6c757d; 
+            font-size: 1.5em;
+            font-weight: 300;
+            margin-bottom: 30px;
+        }
+        .contenedor-imagen {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 25px;
+        }
+        .imagen-estilizada {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px; 
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease-in-out; 
+        }
+        .imagen-estilizada:hover {
+            transform: scale(1.03) rotate(-1deg);
+        }
+        p {
+            text-align: justify;
+            margin-bottom: 40px;
+            font-size: 1.05em;
+        }
+        .boton-animado {
+            display: inline-block;
+            text-decoration: none;
+            background-color: #28a745;
+            color: white;
+            padding: 12px 25px;
+            border-radius: 50px; 
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            box-shadow: 0 5px 15px rgba(40, 167, 69, 0.4);
+            transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease; 
+        }
+        .boton-animado:hover {
+            background-color: #1e7e34;
+            transform: translateY(-3px) scale(1.05); 
+            box-shadow: 0 8px 20px rgba(40, 167, 69, 0.6);
+        }
+        @media (max-width: 600px) {
+            .contenedor-principal {
+                padding: 20px;
+                box-shadow: none;
+            }
+            h1 {
+                font-size: 1.8em;
+            }
+            h2 {
+                font-size: 1.2em;
+            }
+            p {
+                text-align: left;
+            }
+            .boton-animado {
+                width: 100%; 
+                padding: 15px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="contenedor-principal">
+        <h1>Centro de datos hidroelectrico de facebook</h1>
+        <h2>
+            El centro de datos hidroeléctrico de Facebook se inauguró en 2013 en Luleå, Suecia.
+            Ese fue el primer centro de datos de Facebook en Europa, y se alimenta casi completamente con energía hidroeléctrica proveniente del río Lule.
+        </h2>
+        <div class="contenedor-imagen">
+            <img src="server.png" alt="Una imagen ilustrativa y bonita" class="imagen-estilizada">
+        </div>
+        <p>
+            Un centro de datos hidroeléctrico de Facebook es una instalación donde los servidores que soportan servicios de Meta funcionan aprovechando energía hidroeléctrica renovable. Estas instalaciones combinan diseños de alta eficiencia (para enfriamiento y consumo eléctrico), redundancia en suministro y sistemas de respaldo para garantizar disponibilidad continua. El uso de energía hidroeléctrica reduce las emisiones de carbono y apoya la transición hacia operaciones más sostenibles sin comprometer la fiabilidad de los servicios en línea.
+        </p>
+        <a href="https://www.google.com" target="_blank" class="boton-animado">
+            Año 2013
+        </a>
+    </div>
+</body>
+</html>
